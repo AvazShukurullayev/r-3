@@ -2,6 +2,7 @@ import React from "react";
 import TransferMarket from "../transfer-market/TransferMarket";
 import Form from "../form/Form";
 import PoliceList from "../police-list/PoliceList";
+import FormTask from "../form-task/FormTask";
 
 class App extends React.Component {
     render() {
@@ -13,6 +14,8 @@ class App extends React.Component {
                 <PoliceList/>
                 <h3 className="text-center text-danger bg-dark my-5 p-3">Form project | Class Component</h3>
                 <Form/>
+                <h3 className="text-center text-danger bg-dark my-5 p-3">Form task project | Class Component</h3>
+                <FormTask/>
             </div>
         )
     }
